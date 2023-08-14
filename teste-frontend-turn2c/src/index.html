@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Teste FrontEnd Turn2C</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <label for="select">Raça:</label>
+            <select id="select-raca"> 
+                <option value="all">Todos</option>
+                <option value="raca1">Raça 1</option>
+                <option value="raca2">Raça 2</option>
+                <option value="raca3">Raça 3</option>
+                <option value="raca4">Raça 4</option>
+            </select>
+            <button id="profile">
+                <img src="assets/profile.png" alt="Ícone de Perfil">
+            </button>
+        </div>
+    </header>
+
+    <main>
+      <div class="dog-cards">
+        <app-dogs-list></app-dogs-list>
+      </div>
+    </main>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <button id="prev-page">Próxima página</button>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

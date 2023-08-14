@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#select-raca {
+width: 232px;
+height: 30px;
+top: 16px;
+left: 24px;
+border-radius: 8px;
+background-color: #dedede;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color:rgb(255, 255, 255);
+}
+
+#profile img {
+  cursor: pointer;
+  width: 130px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.dog-card {
+  width: calc(25% - 20px); 
+  margin: 10px;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: right;
+}
+
+.footer-content button {
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+  

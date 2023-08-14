@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #de1818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .race-select {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .profile-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  footer {
+    background-color: #fff;
+    text-align: right;
+    padding: 10px;
+  }
+  
