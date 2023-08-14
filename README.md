@@ -2,7 +2,7 @@
 
 #### <div align="center"> _Um teste técnico realizado para a empresa Turn2C!_ </div>
 
-<div align="center"> <img src= "src/assets/Turn2c.jpg" width ="280px" height = "200px"/></div>
+<div align="center"> <img src= "teste-frontend-turn2c/src/assets/Turn2c.jpg" width ="280px" height = "200px"/></div>
 
 ***
 
